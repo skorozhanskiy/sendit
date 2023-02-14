@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<title>Sendit</title>
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header">
+	<div class="header__container">
+		<div class="header__wrapper">
+			<svg class="header__logo">
+				<use xlink:href="img/sprites.svg#logosvg" />
+			</svg>
+			<nav class="header__nav button-burger">
+				<button class="header__button btn-reset ">
+					<svg class="header__lines">
+						<use xlink:href="img/sprites.svg#lines" />
+					</svg>
+				</button>
+				<ul class="header__list">
+					<li class="header__item">
+						<a href="index.html" class="header__link">Главная</a>
+					</li>
+					<li class="header__item">
+						<a href="#reviews" class="header__link">Отзывы</a>
+					</li>
+					<li class="header__item">
+						<a href="#guarantees" class="header__link">Гарантии</a>
+					</li>
+					<li class="header__item">
+						<a href="#description" class="header__link">Описание</a>
+					</li>
+					<li class="header__item">
+						<a href="#partners" class="header__link">Партнёры</a>
+					</li>
+					<li class="header__item">
+						<a href="#advantages" class="header__link">Преимущества</a>
+					</li>
+					<li class="header__item">
+						<a href="#questions" class="header__link">FAQ</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header-info">
+			<div class="header-info__container">
+				<h1 class="header-info__title">ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
+				<p class="header-info__text">А&nbsp;посылка доедет сама</p>
+				<button class="header-info__button btn-reset common-button common-button-style button" id="button">отправить
+					посылку</button>
+			</div>
+		</div>
+	</div>
+</header>
+	<!--end-header -->
+	<main class="main">
+		<!-- hero -->
+		<section class="hero">
+	<div class="hero__container">
+		<h1 class="hero__title">ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
+		<p class="hero__text">А&nbsp;посылка доедет сама</p>
+		<button class="hero__button btn-reset common-button common-button-style button ">отправить посылку</button>
+	</div>
+</section>
+		<!-- end hero -->
+		<section class="description" id="description">
+	<div class="description__container">
+		<div class="description-upper">
+			<div class="description-upper__container">
+				<img class="description-upper__img common-no-select" src="img/description/description-logo.svg" alt="">
+				<h2 class="description-upper__title">Мы&nbsp;&mdash; агрегатор служб доставки</h2>
+				<p class="description-upper__text">С&nbsp;нами удобно вам, вашим клиентам и&nbsp;курьерским службам. Для вас
+					наши услуги бесплатны, так как мы&nbsp;получаем бонусы от&nbsp;служб доставок за&nbsp;предоставленный объем
+					заказов, а&nbsp;вы&nbsp;получаете надежный сервис в&nbsp;подарок!</p>
+				<button class="description-upper__button btn-reset common-button common-button-style button">отправить
+					посылку</button>
+			</div>
+		</div>
+		<div class="description-middle">
+			<div class="description-middle__container">
+				<div class="description-middle-step">
+					<img src="img/description/card/card_1.svg" class="description-middle-step__img img-1 common-no-select"
+						alt="Придумайте что отправить">
+					<h2 class="description-middle-step__title">Шаг&nbsp;1</h2>
+					<p class="description-middle-step__text">Придумайте что и&nbsp;кому отправить</p>
+				</div>
+				<div class="description-middle-step">
+					<img src="img/description/card/card_2.svg" class="description-middle-step__img img-2 common-no-select"
+						alt="Создайте заявку">
+					<h2 class="description-middle-step__title">Шаг&nbsp;2</h2>
+					<p class="description-middle-step__text">Создайте заявку на&nbsp;сайте SendIt&nbsp;&mdash; Ваш персональный
+						менеджер позвонит и&nbsp;подтвердит запрос, уточнит все необходимые данные</p>
+				</div>
+				<div class="description-middle-step">
+					<img src="img/description/card/card_3.svg" class="description-middle-step__img img-3 common-no-select"
+						alt="Курьер заберет посылку">
+					<h2 class="description-middle-step__title">Шаг&nbsp;3</h2>
+					<p class="description-middle-step__text">К&nbsp;Вам приезжает курьер, забирает посылку, Вы&nbsp;подписываете
+						один документ</p>
+				</div>
+				<div class="description-middle-step">
+					<img src="img/description/card/card_4.svg" class="description-middle-step__img img-4 common-no-select"
+						alt="Ожидайте подтверждение доставки">
+					<h2 class="description-middle-step__title">Шаг&nbsp;4</h2>
+					<p class="description-middle-step__text">Вы&nbsp;ждёте подтверждения доставки, слова радости
+						и&nbsp;благодарности от&nbsp;адресата :)</p>
+				</div>
+			</div>
+		</div>
+		<div class="description-lower">
+			<div class="description-lower__container">
+				<h2 class="description-lower__title">Мы&nbsp;берём все заботы по&nbsp;доставке на&nbsp;себя!
+				</h2>
+				<button class="description-lower__button btn-reset common-button common-button-style button">отправить
+					посылку</button>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- feedback -->
+		<section class="feedback">
+	<div class="feedback__container">
+		<div class="feedback-left">
+			<div class="feedback-left__container">
+				<h2 class="feedback-left__title">хотите мы&nbsp;вам перезвоним?</h2>
+				<p class="feedback-left__subtitle">Закажите звонок, и&nbsp;менеджер вам всё расскажет
+					и&nbsp;объяснит</p>
+			</div>
+		</div>
+		<div class="feedback-right">
+			<form class="feedback-right__container" action="https://jsonplaceholder.typicode.com/posts " method="POST">
+				<input class="feedback-right__input-tel tel" type="tel" placeholder="Ваш телефон" required>
+				<button class="feedback-right__button btn-reset common-no-select ">заказать звонок</button>
+				<label class="feedback-right__label">
+					<input class="feedback-right__input-checkbox visually-hidden" required type="checkbox">
+					<span class="feedback-right__icon-checkbox "></span>
+					Я&nbsp;согласен&nbsp;на&nbsp;обработку&nbsp;персональных&nbsp;данных
+				</label>
+			</form>
+		</div>
+	</div>
+</section>
+		<!-- end feedback -->
+		<section class="reviews" id="reviews">
+	<div class="reviews__container">
+		<div class="reviews__title common-title">ОТЗЫВЫ</div>
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="reviews-swiper__container">
+						<div class="reviews-swiper-top">
+							<div class="reviews-swiper-top__container">
+								<img class="reviews-swiper-top__img" src="img/reviews/image_1_2x.jpg" alt="фотографии пользователя">
+								<div class="reviews-swiper-top__wraper">
+									<h3 class="reviews-swiper-top__user-name">Дарья</h3>
+									<p class="reviews-swiper-top__user-company">La Intuicion</p>
+									<p class="reviews-swiper-top__type-parcel">Посылка: товары</p>
+									<p class="reviews-swiper-top__place-departure">Откуда: Москва</p>
+									<p class="reviews-swiper-top__place-receipt">Куда: Нижневартовск</p>
+								</div>
+							</div>
+						</div>
+						<div class="reviews-swiper-bottom">
+							<div class="reviews-swiper-bottom__container">
+								<p class="reviews-swiper-bottom__text">Отличный и&nbsp;качественный сервис.
+									Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и&nbsp;были приятно
+									удивлены, что помимо удобного сайта, компания предоставляет доступ в&nbsp;личный кабинет, где
+									реализованы многие наши потребности (ведение адресной базы, выбор и&nbsp;вызов курьера в&nbsp;пару
+									кликов).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="reviews-swiper__container">
+						<div class="reviews-swiper-top">
+							<div class="reviews-swiper-top__container">
+								<img class="reviews-swiper-top__img" src="img/reviews/image_2_2x.jpg" alt="фотографии пользователя">
+								<div class="reviews-swiper-top__wraper">
+									<h3 class="reviews-swiper-top__user-name">Елена</h3>
+									<p class="reviews-swiper-top__user-company">Global Logic</p>
+									<p class="reviews-swiper-top__type-parcel">Посылка: товары</p>
+									<p class="reviews-swiper-top__place-departure">Откуда: Москва</p>
+									<p class="reviews-swiper-top__place-receipt">Куда: Калининград</p>
+								</div>
+							</div>
+						</div>
+						<div class="reviews-swiper-bottom">
+							<div class="reviews-swiper-bottom__container">
+								<p class="reviews-swiper-bottom__text">Мне нравится работать с&nbsp;SendIt, потому что это удобно:
+									моментальный расчет стоимости доставки, удобный сайт, выборка среди основных надёжных логистических
+									компаний и&nbsp;самый значимый фактор&nbsp;&mdash; всё это можно оперативно организовать
+									и&nbsp;не&nbsp;волноваться. И&nbsp;ещё хочу сказать отдельное спасибо менеджеру за&nbsp;отзывчивость.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="reviews-swiper__container">
+						<div class="reviews-swiper-top">
+							<div class="reviews-swiper-top__container">
+								<img class="reviews-swiper-top__img" src="img/reviews/image_1_2x.jpg" alt="фотографии пользователя">
+								<div class="reviews-swiper-top__wraper">
+									<h3 class="reviews-swiper-top__user-name">Дарья</h3>
+									<p class="reviews-swiper-top__user-company">La Intuicion</p>
+									<p class="reviews-swiper-top__type-parcel">Посылка: товары</p>
+									<p class="reviews-swiper-top__place-departure">Откуда: Москва</p>
+									<p class="reviews-swiper-top__place-receipt">Куда: Нижневартовск</p>
+								</div>
+							</div>
+						</div>
+						<div class="reviews-swiper-bottom">
+							<div class="reviews-swiper-bottom__container">
+								<p class="reviews-swiper-bottom__text">Отличный и&nbsp;качественный сервис.
+									Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и&nbsp;были приятно
+									удивлены, что помимо удобного сайта, компания предоставляет доступ в&nbsp;личный кабинет, где
+									реализованы многие наши потребности (ведение адресной базы, выбор и&nbsp;вызов курьера в&nbsp;пару
+									кликов).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="reviews-swiper__container">
+						<div class="reviews-swiper-top">
+							<div class="reviews-swiper-top__container">
+								<img class="reviews-swiper-top__img" src="img/reviews/image_1_2x.jpg" alt="фотографии пользователя">
+								<div class="reviews-swiper-top__wraper">
+									<h3 class="reviews-swiper-top__user-name">Дарья</h3>
+									<p class="reviews-swiper-top__user-company">La Intuicion</p>
+									<p class="reviews-swiper-top__type-parcel">Посылка: товары</p>
+									<p class="reviews-swiper-top__place-departure">Откуда: Москва</p>
+									<p class="reviews-swiper-top__place-receipt">Куда: Нижневартовск</p>
+								</div>
+							</div>
+						</div>
+						<div class="reviews-swiper-bottom">
+							<div class="reviews-swiper-bottom__container">
+								<p class="reviews-swiper-bottom__text">Отличный и&nbsp;качественный сервис.
+									Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и&nbsp;были приятно
+									удивлены, что помимо удобного сайта, компания предоставляет доступ в&nbsp;личный кабинет, где
+									реализованы многие наши потребности (ведение адресной базы, выбор и&nbsp;вызов курьера в&nbsp;пару
+									кликов).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+</section>
+		<!-- advantages -->
+		<section class="advantages" id="advantages">
+	<div class="advantages__container">
+		<h2 class="advantages__title common-title">НАШИ ПРЕИМУЩЕСТВА</h2>
+		<div class="advantages-card">
+			<div class="advantages-card__wrapper">
+				<div class="advantages-card__img">
+					<svg class=" img-card-1">
+						<use class="" xlink:href="img/sprites.svg#advantages-1svg" />
+					</svg>
+				</div>
+				<p class="advantages-card__text-info">Бесплатный сервис</p>
+			</div>
+			<div class="advantages-card__wrapper">
+				<div class="advantages-card__img">
+					<svg class=" img-card-2">
+						<use xlink:href="img/sprites.svg#advantages-2svg" />
+					</svg>
+				</div>
+				<p class="advantages-card__text-info">Огромный выбор вариантов доставки</p>
+			</div>
+			<div class="advantages-card__wrapper">
+				<div class="advantages-card__img">
+					<svg class="img-card-3">
+						<use xlink:href="img/sprites.svg#advantages-3svg" />
+					</svg>
+				</div>
+				<p class="advantages-card__text-info">4&nbsp;параметра лучшего предложения</p>
+			</div>
+			<div class="advantages-card__wrapper">
+				<div class="advantages-card__img">
+					<svg class="img-card-4">
+						<use xlink:href="img/sprites.svg#advantages-4svg" />
+					</svg>
+				</div>
+				<p class="advantages-card__text-info">Удобство заказа</p>
+			</div>
+			<div class="advantages-card__wrapper">
+				<div class="advantages-card__img">
+					<svg class="img-card-5">
+						<use xlink:href="img/sprites.svg#advantages-5svg" />
+					</svg>
+				</div>
+				<p class="advantages-card__text-info">Online-поддержка</p>
+			</div>
+			<div class="advantages-card__wrapper">
+				<div class="advantages-card__img">
+					<svg class="img-card-6">
+						<use xlink:href="img/sprites.svg#advantages-6svg" />
+					</svg>
+				</div>
+				<p class="advantages-card__text-info">Единый номер отслеживания</p>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- end advantages -->
+		<!-- guarantees -->
+		<section class="guarantees" id="guarantees">
+	<div class="guarantees__container">
+		<h2 class="guarantees__title common-title">НАШИ ГАРАНТИИ</h2>
+		<div class="swiper myswiper-2">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="guarantees-swiper__container">
+						<div class="guarantees-swiper__icon-container">
+							<svg class="guarantees-swiper__icon icon-1">
+								<use xlink:href="img/sprites.svg#guarantees-1svg" />
+							</svg>
+						</div>
+						<h3 class="guarantees-swiper__title">Страховка отправлений</h3>
+						<p class="guarantees-swiper__text">Контроль работы курьеров в&nbsp;онлайн режиме. Страхование
+							по&nbsp;запросу клиента Каждый куръер находится под пристальным вниманием менеджеров SendIt</p>
+						<button class="btn-reset guarantees-swiper__button common-button common-button-style">подробнее</button>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="guarantees-swiper__container">
+						<div class="guarantees-swiper__icon-container">
+							<svg class="guarantees-swiper__icon icon-2">
+								<use xlink:href="img/sprites.svg#guarantees-2svg" />
+							</svg>
+						</div>
+						<h3 class="guarantees-swiper__title">Прозрачность расчетов</h3>
+						<p class="guarantees-swiper__text">Чтобы узнать точную стоимость отправления вам не&nbsp;нужно связываться
+							с&nbsp;каждой курьерской службой в&nbsp;отдельности и&nbsp;сравнивать полученные предложения, просто
+							воспользуйтесь нашим сервисом</p>
+						<button class="btn-reset guarantees-swiper__button common-button common-button-style">подробнее</button>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="guarantees-swiper__container">
+						<div class="guarantees-swiper__icon-container">
+							<svg class="guarantees-swiper__icon icon-3">
+								<use xlink:href="img/sprites.svg#guarantees-3svg" />
+							</svg>
+						</div>
+						<h3 class="guarantees-swiper__title">Лучшие поставщики</h3>
+						<p class="guarantees-swiper__text">Мы работаем с самыми надежными и известными операторами доставки.
+							Проверка надежности курьерской компании, экспертная оценка качества предоставляемых услуг</p>
+						<button class="btn-reset guarantees-swiper__button common-button common-button-style">подробнее</button>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+</section>
+		<!-- end guarantees -->
+
+		<!-- description -->
+		<section class="questions" id="questions">
+	<div class="questions__container">
+		<h2 class="questions__title common-title">ОСТАЛИСЬ СОМНЕНИЯ?</h2>
+		<div class="questions-accordion" id="accordion-1">
+			<div class="questions-accordion__item">
+				<div class="questions-accordion__header">
+					<p class="questions-accordion__text"> На&nbsp;бумажную волокиту уйдёт много времени, а&nbsp;мне нужно
+						доставить
+						срочно!</p>
+				</div>
+				<div class="questions-accordion__body">
+					<p class="questions-accordion__text-hiden">Это не&nbsp;так. Вам нужно заполнить и&nbsp;подписать всего один
+						документ, который распространяется
+						на&nbsp;все
+						службы доставки, которые будут доставлять вашу посылку</p>
+				</div>
+			</div>
+			<div class="questions-accordion__item">
+				<div class="questions-accordion__header">
+					<p class="questions-accordion__text"> Мне необходимо совершить доставку по&nbsp;нескольким адресам, нужно
+						много
+						чего заполнять</p>
+				</div>
+				<div class="questions-accordion__body">
+					<p class="questions-accordion__text-hiden">Это не&nbsp;так. Вам нужно заполнить и&nbsp;подписать всего один
+						документ, который распространяется
+						на&nbsp;все
+						службы доставки, которые будут доставлять вашу посылку</p>
+				</div>
+			</div>
+			<div class="questions-accordion__item">
+				<div class="questions-accordion__header">
+					<p class="questions-accordion__text"> Вы не сможете доставить посылку за границу</p>
+				</div>
+				<div class="questions-accordion__body">
+					<p class="questions-accordion__text-hiden">Это не&nbsp;так. Вам нужно заполнить и&nbsp;подписать всего один
+						документ, который распространяется
+						на&nbsp;все
+						службы доставки, которые будут доставлять вашу посылку</p>
+				</div>
+			</div>
+			<div class="questions-accordion__item">
+				<div class="questions-accordion__header">
+					<p class="questions-accordion__text"> Вы&nbsp;не&nbsp;занимаетесь такими простыми грузами, как мебель</p>
+				</div>
+				<div class="questions-accordion__body">
+					<p class="questions-accordion__text-hiden">Это не&nbsp;так. Вам нужно заполнить и&nbsp;подписать всего один
+						документ, который распространяется
+						на&nbsp;все
+						службы доставки, которые будут доставлять вашу посылку</p>
+				</div>
+			</div>
+			<div class="questions-accordion__item">
+				<div class="questions-accordion__header">
+					<p class="questions-accordion__text"> Я&nbsp;отправляю вместе с&nbsp;коллегами, мы&nbsp;можем легко запутаться
+						где чьё</p>
+				</div>
+				<div class="questions-accordion__body">
+					<p class="questions-accordion__text-hiden">Это не&nbsp;так. Вам нужно заполнить и&nbsp;подписать всего один
+						документ, который распространяется
+						на&nbsp;все
+						службы доставки, которые будут доставлять вашу посылку</p>
+				</div>
+			</div>
+			<div class="questions-accordion__item">
+				<div class="questions-accordion__header">
+					<p class="questions-accordion__text"> Нужно заполнять кучу документов</p>
+				</div>
+				<div class="questions-accordion__body">
+					<p class="questions-accordion__text-hiden">Это не&nbsp;так. Вам нужно заполнить и&nbsp;подписать всего один
+						документ, который распространяется
+						на&nbsp;все
+						службы доставки, которые будут доставлять вашу посылку</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- end description -->
+		<!-- partners -->
+		<section class="partners" id="partners">
+	<div class="partners__container">
+		<div class="swiper myswiper-partners">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-1" src="img/partners/bringo.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-2" src="img/partners/cdek.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-3" src="img/partners/city_express.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-4" src="img/partners/dpd.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-5" src="img/partners/pony.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-6" src="img/partners/spsr.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-7" src="img/partners/tnt.svg" alt="">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="partners__img">
+						<img class="partners__icon icon-partners-8" src="img/partners/ups.svg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+</section>
+		<!-- end guarantees -->
+		<!-- modal -->
+		<section class="modal is-active">
+	<div class="modal__container">
+		<button class="modal__cross btn-reset button">
+			<svg class="modal__icon">
+				<use xlink:href="img/sprites.svg#modal__icon" />
+			</svg>
+		</button>
+		<h3 class="modal__title common-no-select">Оставьте заявку, и&nbsp;мы&nbsp;Вам перезвоним!</h3>
+		<form action="https://jsonplaceholder.typicode.com/posts " method="POST" class="modal__form">
+			<input class="modal__text input-reset " type="text" name="user_name" placeholder="Ваше имя" required>
+			<input class="modal__tel input-reset tel" type="tel" name="user__phone" placeholder="Ваш телефон" required>
+			<button class="modal__button btn-reset common-button common-button-style" type="submit">заказать звонок</button>
+		</form>
+	</div>
+</section>
+		<!-- end modal -->
+	</main>
+	<!-- footer -->
+	<footer class="footer">
+	<div class="footer__container">
+		<div class="footer-top">
+			<form class="footer-top__container" action="https://jsonplaceholder.typicode.com/posts " method="POST">
+				<span class="footer-top__title">ОСТАЛИСЬ ВОПРОСЫ?</span>
+				<input type="tel" class="footer-top__tel input-reset tel" placeholder="Ваш телефон" required>
+				<button class="footer-top__button btn-reset common-button-style">заказать звонок</button>
+				<label class="footer-top__label" for="footer-top-checkbox">
+					<input class="footer-top__checkbox visually-hidden" type="checkbox" name="" id="footer-top-checkbox" required>
+					<span class="footer-top__icon"></span>
+					<p class="footer-top__text common-no-select">Я согласен на обработку персональных данных</p>
+				</label>
+			</form>
+		</div>
+		<div class="footer-center">
+			<div class="footer-center__container">
+				<svg class="footer-center__logo">
+					<use xlink:href="img/sprites.svg#logo-footersvg" />
+				</svg>
+				<nav class="footer-center__nav">
+					<button class="footer-center__button btn-reset button-burger">
+						<svg class="footer-center__lines">
+							<use xlink:href="img/sprites.svg#lines" />
+						</svg>
+					</button>
+					<ul class="footer-center__list">
+						<li class="footer-center__item">
+							<a href="index.html" class="footer-center__link">Главная</a>
+						</li>
+						<li class="footer-center__item">
+							<a href="#reviews" class="footer-center__link">Отзывы</a>
+						</li>
+						<li class="footer-center__item">
+							<a href="#guarantees" class="footer-center__link">Гарантии</a>
+						</li>
+						<li class="footer-center__item">
+							<a href="#description" class="footer-center__link">Описание</a>
+						</li>
+						<li class="footer-center__item">
+							<a href="#partners" class="footer-center__link">Партнёры</a>
+						</li>
+						<li class="footer-center__item">
+							<a href="#advantages" class="footer-center__link">Преимущества</a>
+						</li>
+						<li class="footer-center__item">
+							<a href="#questions" class="footer-center__link">FAQ</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer-bottom__container">
+				<div class="footer-bottom-left">
+					<p class="footer-bottom-left__text-info">&copy;&nbsp;Сами копипастим и&nbsp;вам разрешаем</p>
+				</div>
+				<div class="footer-bottom-center">
+					<a href="https://vk.com/" target="_blank" class="footer-bottom-center__vk">
+						<svg class="footer-bottom-center__icon">
+							<use xlink:href="img/sprites.svg#vksvg" />
+						</svg>
+					</a>
+					<a href="https://en.wikipedia.org/wiki/Instagram" target="_blank" class="footer-bottom-center__instagram">
+						<svg class="footer-bottom-center__icon">
+							<use xlink:href="img/sprites.svg#instagramsvg" />
+						</svg>
+					</a>
+					<a href="https://translated.turbopages.org/proxy_u/en-ru.ru.5de7f57d-63ceea81-959cc1bb-74722d776562/https/en.wikipedia.org/wiki/Facebook.Com"
+						target="_blank" class="footer-bottom-center__fb">
+						<svg class="footer-bottom-center__icon">
+							<use xlink:href="img/sprites.svg#fbsvg" />
+						</svg>
+					</a>
+				</div>
+				<div class="footer-bottom-right">
+					<span class="footer-bottom-right__year">2019</span>
+					<p class="footer-bottom-right__text-info">Задизайнено мной</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	<!-- end footer -->
+	<!-- nav -->
+	<section class="nav ">
+	<div class="nav__container ">
+		<div class="nav__wrapper">
+			<div class="nav__header">
+				<svg class="nav__logo">
+					<use xlink:href="img/sprites.svg#logo-footersvg" />
+				</svg>
+				<button class="nav__button button-burger">
+					<svg class="nav__button-icon">
+						<use xlink:href="img/sprites.svg#cross" />
+					</svg>
+				</button>
+			</div>
+			<ul class="nav__list common-no-select">
+				<li class="nav__item">
+					<a href="index.html" class="nav__link">Главная</a>
+				</li>
+				<li class="nav__item">
+					<a href="#description" class="nav__link">Описание</a>
+				</li>
+				<li class="nav__item">
+					<a href="#advantages" class="nav__link">Преимущества</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link">Отзывы</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link">Партнёры</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link">Гарантии</a>
+				</li>
+				<li class="nav__item">
+					<a href="#questions" class="nav__link">FAQ</a>
+				</li>
+			</ul>
+			<div class="nav-questions">
+				<div class="nav-questions__container">
+					<h3 class="nav-questions__title common-no-select">ОСТАЛИСЬ ВОПРОСЫ?</h3>
+					<form action="" class="common-no-select">
+						<input type="tel" required class="nav-questions__input-tel input-reset tel" placeholder="Ваш телефон"
+							required>
+						<button class="nav-questions__button btn-reset common-button-style">заказать звонок</button>
+						<label for="nav-questions" class="nav-questions__label">
+							<input id="nav-questions" type="checkbox" class="nav-questions__checkbox visually-hidden" required>
+							<span class="nav-questions__icon"></span>
+							<p class="nav-questions__text">Я&nbsp;согласен на&nbsp;обработку персональных данных</p>
+						</label>
+					</form>
+					<div class="nav-social">
+						<div class="nav-social__container">
+							<a href="https://vk.com/" target="_blank" class="nav-social__vk">
+								<svg class="nav-social__icon">
+									<use xlink:href="img/sprites.svg#vksvg" />
+								</svg>
+							</a>
+							<a href="https://en.wikipedia.org/wiki/Instagram" target="_blank" class="nav-social__instagram">
+								<svg class="nav-social__icon">
+									<use xlink:href="img/sprites.svg#instagramsvg" />
+								</svg>
+							</a>
+							<a href="https://translated.turbopages.org/proxy_u/en-ru.ru.5de7f57d-63ceea81-959cc1bb-74722d776562/https/en.wikipedia.org/wiki/Facebook.Com"
+								target="_blank" class="nav-social__fb">
+								<svg class="nav-social__icon">
+									<use xlink:href="img/sprites.svg#fbsvg" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	<!-- end nav -->
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
